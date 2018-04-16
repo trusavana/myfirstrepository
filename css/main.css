@@ -130,7 +130,7 @@ body, html {
 	margin-top: 152px;
 	padding: 0px;
 }
-form {
+.radioForm {
 	margin-left: 195px;
 }
 .title1 {
@@ -150,17 +150,17 @@ form {
 	font-weight: 700;
 	font-style: bold;
 }
-label{
+.radioLabel {
 	display: inline-block;
     cursor: pointer;
     position: relative;
     padding-left: 5px;
     margin-right: 10px; 
 }
-input[type=radio] {
+.inputDisplayNone[type=radio] {
     display: none;
 }
-label:before {
+.radioLabel:before {
 	content: " ";
     display: inline-block;
     width: 10px;
@@ -431,4 +431,188 @@ div:hover #seeText{
 }*/
 div:hover #iWantSeeThisBock {
 	opacity: 1;
+}
+.whatTheySays {
+	min-height: 923px;
+	background: #f9fbfb;
+}
+.rightBlock {
+	min-height: 362px;
+	width: calc((100% - 82px) * 0.6294);
+	display: inline-block;	
+	margin-left: 72px;
+	vertical-align: middle;
+	margin-top: 161px;
+	background: #eaebed;
+	text-align: center;
+}
+.leftBlock {
+	height: 410px;
+	width: calc((100% - 82px) * 0.3739);
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 137px;
+	background: gray;
+
+}
+.RAYHAN {
+	padding-top: 101px;
+	font-family: Merriweather;
+	font-size: 20px;
+	font-weight: 700;	
+	color: #000000;
+	letter-spacing: 1.3px;
+	line-height: 28px;
+}
+.UIUX {
+	font-family: Merriweather-Regular;
+	font-size: 15px;
+	font-weight: 400;
+	color: #787878;
+	letter-spacing: 1.3px;
+	line-height: 28px;
+}
+.dummy {
+	font-family: Raleway-Regular;
+	font-size: 16px;
+	color: rgba(0,0,0, 0.7);
+	letter-spacing: 0.96px;
+	padding-left: 86px;
+	padding-right: 80px;
+}
+.star{
+	color: #f2da3b;
+}
+.avatar {
+	width: 319px;
+	height: 410px;
+}
+.someFirm {
+	height: 387px;
+	background: #f9fbfb;
+}
+.logoFirms {
+	margin-top: 108px;
+	max-width: 1113px;
+}
+.contactUs {
+	background: url(../img/christmas.png);
+	background-repeat: no-repeat;
+	min-height: 704px;
+	opacity: 0.67;
+	/*background: rgba(248, 250, 251, 0.7);*/
+	
+	/*background-size: cover;*/
+}
+.sendMeseage {
+	height: 460px;
+	width: calc((100% - 26px) * 0.53);
+	display: inline-block;
+	vertical-align: middle;
+	background: rgba(2, 22, 35, 0.7);
+	padding: 0;
+	margin-top: 121px;
+}
+.mapCity {
+	padding-top: 25px;
+	height: 460px;
+	width: calc((100% - 26px) * 0.45);
+	display: inline-block;
+	vertical-align: middle;
+	background: rgba(2, 22, 35, 0.7);
+	margin-left: 26px;
+	margin-top: 106px;
+	text-align: left;
+	padding-left: 30px;
+}
+.formForContact {
+	color: black;
+}
+.nameInput, .subjectInput, .emailInput, .textareaInput {	
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: Raleway;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 15px;
+	font-weight: 400;
+}
+.formForContact {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 32px;
+	margin-top: 50px;
+}
+.textareaInput {
+	width: 250px;
+	height: 90px;
+}
+
+.buttomSub {
+	padding: 20px 37px 20px 37px;
+	background: #6eeee4;
+	border: 0 solid #6eeee4;
+	border-radius: 2px;
+	margin-top: 38px;
+}
+.mapText {
+	font-family: Raleway;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 15px;
+	font-weight: 400;
+}
+.imgMap {
+	margin-top: 20px;
+	width: calc(100% - 30px);
+	max-height: 180px;
+	opacity: 0;
+}
+.mapCity:hover .imgMap{
+	opacity: 1;
+}
+.footerLending {
+	height: 312px;
+	background: #262b2e;
+	text-align: center;
+}
+.footerH {
+	padding-top: 93px;
+	opacity: 0.8;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 0.16px;
+	margin: 0;
+}
+.footerA {
+	padding-top: 10px;
+	background: rgba(255, 255, 255, .4);
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	vertical-align: middle;	
+}
+.footerText {
+	opacity: 0.4;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0.16px;
+}
+#footD:hover {
+	background: #71f6eb;
+}
+#footTwet:hover {
+	background: #71f6eb;	
+}
+#footFeca:hover {
+	background: #71f6eb;
+}
+#footGlobe:hover {
+	background: #71f6eb;
 }
